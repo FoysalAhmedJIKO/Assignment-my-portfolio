@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.menu-bar{
+   text-align-last: right;
+}
+p{
+    color:lightslategray;
+}
+h2{
+    color: mediumslateblue;
+
+}
+h1{
+    color: darkviolet;
+}
+.menu-bar {
+    height: 50px;
+}
+
+.top-nav{
+    float: right;
+    text-align: right;
+    padding: 15px 160px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 25px;
+    font-weight: bolder;
+  }
+
+  .top-nav a{
+      text-decoration: none;
+      color: rgb(212, 0, 255);
+  }
+  section{
+    height: 500px;
+    
+}
+  .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+  .half-width img{
+    width: 80%;
+    padding-top: 15px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat; 
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient( rgb(235, 16, 198),rgb(210, 104, 231) );
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+#ab {
+    padding-top: 50px;
+}
+.work-area h2{
+    text-align: center;
+    
+}
+.name-highlight{
+    color: rgb(226, 4, 247);
+}
+.projects{
+    width: 25%;
+    float: left;
+}
+
