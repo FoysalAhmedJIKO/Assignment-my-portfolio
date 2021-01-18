@@ -63,15 +63,41 @@ h1{
 #ab {
     padding-top: 50px;
 }
+.work-area{
+    
+    background-color: rgb(251, 231, 253);
+}
 .work-area h2{
     text-align: center;
-    
+    padding: 20px;  
 }
 .name-highlight{
     color: rgb(226, 4, 247);
 }
+
+.project-area{
+    width: 90%;
+    height: 60%;
+    
+    margin:20px 50px 20px 50px;
+    border-radius: 20px;
+}
 .projects{
     width: 25%;
+    height: 100%;
     float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-radius: 20px;
+    border: chartreuse solid;
+
+}
+.projects img{
+    width: 80%;
+    height: 50%;
+    padding-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
 }
 
