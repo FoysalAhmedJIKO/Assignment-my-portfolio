@@ -78,7 +78,6 @@ h1{
 .project-area{
     width: 90%;
     height: 60%;
-    
     margin:20px 50px 20px 50px;
     border-radius: 20px;
 }
@@ -89,15 +88,31 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
     border-radius: 20px;
-    border: chartreuse solid;
+    background-color:rgb(245, 195, 245);
+    box-shadow: 3px 3px 30px rgb(177, 99, 250);
+    border-radius: 10px;
 
 }
 .projects img{
-    width: 80%;
+    width: 87%;
     height: 50%;
     padding-top: 15px;
     margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
-    
+}
+.projects h4{
+    padding-left: 12px;
+}
+.half-height{
+    height: 50%;
+    border: purple solid;
 }
 
+.half-height img{
+    height: 50%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
