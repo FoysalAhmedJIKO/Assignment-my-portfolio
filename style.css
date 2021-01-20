@@ -107,12 +107,35 @@ h1{
 .half-height{
     height: 50%;
     border: purple solid;
+    position: relative;
+    
 }
 
 .half-height img{
-    height: 50%;
-    width: 70%;
+    height: 170px;
+    width: 900px;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
+    position: relative;
+}
+.button-chat{
+    position: absolute;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    right: 30%;
+    top: 45%;
+    background-color: blueviolet;
+    border: none;
+    text-decoration: none;
+}
+.word{
+    position: absolute;
+    top: 84px;
+    left: 220px;
+    color: white;
+    font-size: 250%;
+    font-family: cursive;
 }
