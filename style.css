@@ -64,12 +64,39 @@ h1{
     padding-top: 50px;
 }
 .work-area{
-    
     background-color: rgb(251, 231, 253);
 }
 .work-area h2{
+    margin-top: 0;
     text-align: center;
     padding: 20px;  
+}
+
+
+.skill-area{
+    height: 170px;
+    background-color: rgb(218, 242, 250);
+    border-radius: 25px;
+    margin-bottom: 0;
+}
+.skill-area p{
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-right: 45%;
+    margin-left: 45%;
+    text-align: center;
+}
+.skill-area h4{
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px;
+    margin: 1.5%;
+    padding-left: 10px;
+    background-color: rgb(109, 2, 141);
+    box-shadow: 3px 3px 30px rgb(177, 99, 250);
+    border-radius: 12px;
 }
 .name-highlight{
     color: rgb(226, 4, 247);
@@ -106,15 +133,13 @@ h1{
 }
 .half-height{
     height: 50%;
-    border: purple solid;
     position: relative;
-    
 }
 
 .half-height img{
     height: 170px;
     width: 900px;
-    margin-left: 15%;
+    margin-left: 17%;
     margin-right: 15%;
     margin-top: 5%;
     position: relative;
@@ -134,8 +159,32 @@ h1{
 .word{
     position: absolute;
     top: 84px;
-    left: 220px;
+    left: 260px;
     color: white;
     font-size: 250%;
     font-family: cursive;
+}
+#footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 130%;
+    color: rgb(240, 24, 240);
+}
+#footer-mail{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(117, 0, 250);
+   font-family: cursive;
+}
+
+
+.footer-icon img{
+    width: 3%;
+    height: 3%;
+    margin: 7px;   
+}
+.footer-icon{
+    text-align: center;
 }
